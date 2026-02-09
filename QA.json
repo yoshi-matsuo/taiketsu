@@ -1,0 +1,1053 @@
+[
+  {
+    "id": 1,
+    "category": "英単語→日本語",
+    "question": "inevitable",
+    "answer": "避けられない、必然的な",
+    "explanation": "「in（否定）+ evitable（避けられる）」から成る単語です。同義語は unavoidable。"
+  },
+  {
+    "id": 2,
+    "category": "英単語→日本語",
+    "question": "subtle",
+    "answer": "微妙な、かすかな",
+    "explanation": "bは発音しません。「サトル」に近い発音です。明確ではないが重要な違いを表す際によく使われます。"
+  },
+  {
+    "id": 3,
+    "category": "英単語→日本語",
+    "question": "implement",
+    "answer": "実行する、履行する",
+    "explanation": "計画や政策などを実際に「行う」こと。名詞では「道具」という意味もあります。"
+  },
+  {
+    "id": 4,
+    "category": "英単語→日本語",
+    "question": "comprehensive",
+    "answer": "包括的な、総合的な",
+    "explanation": "comprehensive insurance（総合保険）のように使われます。comprehensible（理解できる）と混同しないように注意。"
+  },
+  {
+    "id": 5,
+    "category": "日本語→英単語",
+    "question": "（機会などを）つかむ、差し押さえる",
+    "answer": "seize",
+    "explanation": "Seize the day（今を生きろ）というフレーズでも有名です。掴み取るイメージ。"
+  },
+  {
+    "id": 6,
+    "category": "日本語→英単語",
+    "question": "〜のせいにする、帰する",
+    "answer": "attribute",
+    "explanation": "attribute A to B で「AをBのせいにする（おかげだと考える）」という構文で頻出です。"
+  },
+  {
+    "id": 7,
+    "category": "日本語→英単語",
+    "question": "（苦痛などを）和らげる、軽減する",
+    "answer": "alleviate",
+    "explanation": "痛みや問題を軽くすること。relieve も近い意味を持ちます。"
+  },
+  {
+    "id": 8,
+    "category": "5文型判定",
+    "question": "次の文の文型を答えなさい： She kept him waiting for an hour.",
+    "answer": "第5文型 (SVOC)",
+    "explanation": "S=She, V=kept, O=him, C=waiting。「彼が待っている状態」を保ったので、O=Cの関係が成り立ちます。"
+  },
+  {
+    "id": 9,
+    "category": "5文型判定",
+    "question": "次の文の文型を答えなさい： He gave me a nice present.",
+    "answer": "第4文型 (SVOO)",
+    "explanation": "S=He, V=gave, O1=me, O2=a nice present。「私」≠「プレゼント」なのでSVOOです。"
+  },
+  {
+    "id": 10,
+    "category": "5文型判定",
+    "question": "次の文の文型を答えなさい： The leaves turned red.",
+    "answer": "第2文型 (SVC)",
+    "explanation": "S=The leaves, V=turned, C=red。「葉＝赤い」という主語の状態説明なのでSVCです。"
+  },
+  {
+    "id": 11,
+    "category": "熟語（英→日）",
+    "question": "call off",
+    "answer": "中止する",
+    "explanation": "予定されていたイベントなどをキャンセルすること。cancel と同義。"
+  },
+  {
+    "id": 12,
+    "category": "熟語（英→日）",
+    "question": "look up to",
+    "answer": "尊敬する",
+    "explanation": "文字通り「見上げる」ことから、目上の人や憧れの人を尊敬するという意味になります。respect と同義。"
+  },
+  {
+    "id": 13,
+    "category": "熟語（日→英）",
+    "question": "〜を我慢する（3語で）",
+    "answer": "put up with",
+    "explanation": "endure や tolerate の言い換えとして頻出の熟語です。"
+  },
+  {
+    "id": 14,
+    "category": "熟語（日→英）",
+    "question": "〜を廃止する（2語で）",
+    "answer": "do away with",
+    "explanation": "規則や制度をなくすこと。abolish と同義です。"
+  },
+  {
+    "id": 15,
+    "category": "同義語",
+    "question": "「obstacle」の同義語を選べ： [ barrier / advantage / solution ]",
+    "answer": "barrier",
+    "explanation": "obstacle は「障害（物）」という意味。barrier（壁、障壁）が最も近いです。"
+  },
+  {
+    "id": 16,
+    "category": "同義語",
+    "question": "「sufficient」の同義語を選べ： [ enough / scarce / excessive ]",
+    "answer": "enough",
+    "explanation": "sufficient は「十分な」という意味。enough よりも堅い表現です。"
+  },
+  {
+    "id": 17,
+    "category": "対義語",
+    "question": "「optimistic」の対義語は？",
+    "answer": "pessimistic",
+    "explanation": "optimistic（楽観的な）に対し、pessimistic は「悲観的な」という意味です。"
+  },
+  {
+    "id": 18,
+    "category": "対義語",
+    "question": "「artificial」の対義語は？",
+    "answer": "natural",
+    "explanation": "artificial（人工の）に対し、natural は「自然の、天然の」です。"
+  },
+  {
+    "id": 19,
+    "category": "不規則変化",
+    "question": "seek の過去形・過去分詞形は？",
+    "answer": "sought - sought",
+    "explanation": "think - thought と似た変化パターンを持ちます。「探す、求める」の意味。"
+  },
+  {
+    "id": 20,
+    "category": "不規則変化",
+    "question": "lay の過去形・過去分詞形は？",
+    "answer": "laid - laid",
+    "explanation": "lie（横たわる：lie-lay-lain）と混同しやすいですが、lay（〜を置く、横たえる）は laid になります。"
+  },
+  {
+    "id": 21,
+    "category": "不規則変化",
+    "question": "broadcast の過去形・過去分詞形は？",
+    "answer": "broadcast - broadcast",
+    "explanation": "cast（投げる）が変化しないのと同様、broadcast も無変化型が一般的です（broadcastedも許容されますが稀）。"
+  },
+  {
+    "id": 22,
+    "category": "前置詞",
+    "question": "彼はそのニュースに驚いた。 He was surprised ( ) the news.",
+    "answer": "at",
+    "explanation": "surprised at 〜 で「〜に驚く」。一点（ニュース）を指して驚くイメージです。"
+  },
+  {
+    "id": 23,
+    "category": "前置詞",
+    "question": "この薬は頭痛に効く。 This medicine is good ( ) headaches.",
+    "answer": "for",
+    "explanation": "be good for 〜 で「〜に効果がある、〜に適している」。be good at（得意だ）と混同しないように。"
+  },
+  {
+    "id": 24,
+    "category": "前置詞",
+    "question": "私の意見はあなたのとは異なる。 My opinion is different ( ) yours.",
+    "answer": "from",
+    "explanation": "different from 〜 で「〜と異なる」。than は通常使いません（アメリカ口語では使われることもありますが試験では from 推奨）。"
+  },
+  {
+    "id": 25,
+    "category": "前置詞",
+    "question": "彼は窃盗の疑いをかけられた。 He was accused ( ) theft.",
+    "answer": "of",
+    "explanation": "accuse A of B で「AをB（の罪）で訴える・非難する」。"
+  },
+  {
+    "id": 26,
+    "category": "その他（語法）",
+    "question": "誤っている箇所を選べ： I discussed about the matter with him.",
+    "answer": "about を削除",
+    "explanation": "discuss は他動詞なので、直後に目的語をとります。discuss the matter が正解。"
+  },
+  {
+    "id": 27,
+    "category": "その他（語法）",
+    "question": "空欄に適切な語を入れよ： I am looking forward to ( ) you. [ see / seeing ]",
+    "answer": "seeing",
+    "explanation": "look forward to の to は前置詞なので、後ろには名詞または動名詞が来ます。"
+  },
+  {
+    "id": 28,
+    "category": "その他（会話表現）",
+    "question": "「Mind if I sit here?（ここに座ってもいい？）」に対して「どうぞ」と答えるなら？",
+    "answer": "Not at all. / Go ahead.",
+    "explanation": "Mind（気にしますか？）と聞かれているので、「全く（気にしません）＝Not at all」と答えるのが肯定になります。Yesと答えると「嫌だ」という意味になります。"
+  },
+  {
+    "id": 29,
+    "category": "英単語→日本語",
+    "question": "vulnerable",
+    "answer": "傷つきやすい、脆弱な",
+    "explanation": "攻撃や批判に対して守りが弱い状態。セキュリティ用語としてもよく使われます。"
+  },
+  {
+    "id": 30,
+    "category": "英単語→日本語",
+    "question": "meticulous",
+    "answer": "綿密な、細心の注意を払った",
+    "explanation": "細かいことによく気がつく、仕事が丁寧な様子。"
+  },
+  {
+    "id": 31,
+    "category": "日本語→英単語",
+    "question": "（会議などを）延期する",
+    "answer": "postpone",
+    "explanation": "put off と同義です。"
+  },
+  {
+    "id": 32,
+    "category": "日本語→英単語",
+    "question": "仮説",
+    "answer": "hypothesis",
+    "explanation": "科学論文などで頻出。複数形は hypotheses です。"
+  },
+  {
+    "id": 33,
+    "category": "5文型判定",
+    "question": "次の文の文型を答えなさい： I found the book interesting.",
+    "answer": "第5文型 (SVOC)",
+    "explanation": "S=I, V=found, O=the book, C=interesting。「本＝面白い」とわかった、という意味です。"
+  },
+  {
+    "id": 34,
+    "category": "熟語（英→日）",
+    "question": "take over",
+    "answer": "引き継ぐ",
+    "explanation": "仕事や責任を前の人から受け取ること。"
+  },
+  {
+    "id": 35,
+    "category": "熟語（日→英）",
+    "question": "〜を利用する（3語で）",
+    "answer": "make use of",
+    "explanation": "take advantage of（好機などを利用する）も似た表現です。"
+  },
+  {
+    "id": 36,
+    "category": "同義語",
+    "question": "「abundant」の同義語を選べ： [ plentiful / empty / rare ]",
+    "answer": "plentiful",
+    "explanation": "abundant は「豊富な」という意味です。"
+  },
+  {
+    "id": 37,
+    "category": "対義語",
+    "question": "「superior」の対義語は？",
+    "answer": "inferior",
+    "explanation": "superior to（〜より優れている）、inferior to（〜より劣っている）。thanではなくtoを使う点も重要。"
+  },
+  {
+    "id": 38,
+    "category": "不規則変化",
+    "question": "flee の過去形・過去分詞形は？",
+    "answer": "fled - fled",
+    "explanation": "「逃げる」という意味。feed - fed と変化が似ています。"
+  },
+  {
+    "id": 39,
+    "category": "前置詞",
+    "question": "彼はその結果に満足している。 He is satisfied ( ) the result.",
+    "answer": "with",
+    "explanation": "be satisfied with 〜 で「〜に満足する」。"
+  },
+  {
+    "id": 40,
+    "category": "その他（文法）",
+    "question": "（　）内の語を適切な形に： If I ( be ) a bird, I would fly to you.",
+    "answer": "were",
+    "explanation": "仮定法過去。現在の事実と異なる願望を表すため、主語が I でも be動詞は通常 were を使います。"
+  },
+  {
+    "id": 41,
+    "category": "英単語→日本語",
+    "question": "crucial",
+    "answer": "極めて重要な、決定的な",
+    "explanation": "very important よりも切迫したニュアンス。critical も近い意味です。"
+  },
+  {
+    "id": 42,
+    "category": "英単語→日本語",
+    "question": "vague",
+    "answer": "曖昧な、ぼんやりした",
+    "explanation": "はっきりしないこと。ambiguous（多義的で曖昧な）と並んで試験頻出語です。"
+  },
+  {
+    "id": 43,
+    "category": "英単語→日本語",
+    "question": "reluctant",
+    "answer": "気が進まない、しぶしぶの",
+    "explanation": "be reluctant to do（〜するのに気が進まない）の形でよく使われます。"
+  },
+  {
+    "id": 44,
+    "category": "英単語→日本語",
+    "question": "emphasize",
+    "answer": "強調する",
+    "explanation": "名詞形は emphasis。put emphasis on 〜（〜を強調する）も覚えましょう。"
+  },
+  {
+    "id": 45,
+    "category": "英単語→日本語",
+    "question": "candidate",
+    "answer": "候補者、志願者",
+    "explanation": "選挙の立候補者や、求職者を指します。"
+  },
+  {
+    "id": 46,
+    "category": "英単語→日本語",
+    "question": "deficit",
+    "answer": "赤字、不足",
+    "explanation": "貿易赤字（trade deficit）などで使われます。対義語は surplus（黒字）。"
+  },
+  {
+    "id": 47,
+    "category": "英単語→日本語",
+    "question": "sophisticated",
+    "answer": "洗練された、精巧な",
+    "explanation": "人について使うと「教養がある」、機械について使うと「高性能な」という意味になります。"
+  },
+  {
+    "id": 48,
+    "category": "英単語→日本語",
+    "question": "patience",
+    "answer": "忍耐、我慢",
+    "explanation": "形は似ていますが、patient（患者／忍耐強い）の名詞形です。"
+  },
+  {
+    "id": 49,
+    "category": "日本語→英単語",
+    "question": "妥協する",
+    "answer": "compromise",
+    "explanation": "お互いに譲り合って解決すること。promise（約束）が含まれているのが覚え方のコツ。"
+  },
+  {
+    "id": 50,
+    "category": "日本語→英単語",
+    "question": "（事実などを）認める",
+    "answer": "acknowledge",
+    "explanation": "admit も「認める」ですが、acknowledge は「事実であると受け入れる」「感謝を伝える」など幅広く使われます。"
+  },
+  {
+    "id": 51,
+    "category": "日本語→英単語",
+    "question": "繁栄する",
+    "answer": "prosper",
+    "explanation": "thrive や flourish も同義語です。形容詞形 prosperous（繁栄している）も重要。"
+  },
+  {
+    "id": 52,
+    "category": "日本語→英単語",
+    "question": "証拠",
+    "answer": "evidence",
+    "explanation": "不可算名詞（数えられない名詞）であることに注意。proof も同義。"
+  },
+  {
+    "id": 53,
+    "category": "日本語→英単語",
+    "question": "雰囲気",
+    "answer": "atmosphere",
+    "explanation": "大気という意味もあります。mood は人の気分や場の空気を指すよりカジュアルな語。"
+  },
+  {
+    "id": 54,
+    "category": "日本語→英単語",
+    "question": "結果（として起こること）",
+    "answer": "consequence",
+    "explanation": "result よりも因果関係のニュアンスが強く、「重大な結果」という意味合いで使われることが多いです。"
+  },
+  {
+    "id": 55,
+    "category": "日本語→英単語",
+    "question": "効率的な",
+    "answer": "efficient",
+    "explanation": "effective（効果的な）との違いに注意。efficient は「無駄がなく能率的」なこと。"
+  },
+  {
+    "id": 56,
+    "category": "日本語→英単語",
+    "question": "ためらう",
+    "answer": "hesitate",
+    "explanation": "Don't hesitate to ask.（遠慮なく聞いてください）は定番フレーズ。"
+  },
+  {
+    "id": 57,
+    "category": "5文型判定",
+    "question": "次の文の文型を答えなさい： We elected him mayor.",
+    "answer": "第5文型 (SVOC)",
+    "explanation": "S=We, V=elected, O=him, C=mayor。「彼＝市長」という関係が成り立ちます。"
+  },
+  {
+    "id": 58,
+    "category": "5文型判定",
+    "question": "次の文の文型を答えなさい： The milk went bad.",
+    "answer": "第2文型 (SVC)",
+    "explanation": "go + 形容詞 で「〜（の状態）になる」という意味。「牛乳＝悪くなった」状態。"
+  },
+  {
+    "id": 59,
+    "category": "5文型判定",
+    "question": "次の文の文型を答えなさい： My father bought me a bike.",
+    "answer": "第4文型 (SVOO)",
+    "explanation": "S=My father, V=bought, O1=me, O2=a bike。「私」≠「自転車」なのでSVOO。"
+  },
+  {
+    "id": 60,
+    "category": "5文型判定",
+    "question": "次の文の文型を答えなさい： The sun rises in the east.",
+    "answer": "第1文型 (SV)",
+    "explanation": "in the east は修飾語（M）なので文の要素にはなりません。S=The sun, V=rises。"
+  },
+  {
+    "id": 61,
+    "category": "5文型判定",
+    "question": "次の文の文型を答えなさい： I know that he is honest.",
+    "answer": "第3文型 (SVO)",
+    "explanation": "that he is honest という節全体が、knowの目的語（O）になっています。"
+  },
+  {
+    "id": 62,
+    "category": "熟語（英→日）",
+    "question": "stand for",
+    "answer": "〜を表す、象徴する",
+    "explanation": "UN stands for United Nations. のように使います。represent と同義。"
+  },
+  {
+    "id": 63,
+    "category": "熟語（英→日）",
+    "question": "turn down",
+    "answer": "断る、(音量を)下げる",
+    "explanation": "reject（拒絶する）の口語表現として頻出です。"
+  },
+  {
+    "id": 64,
+    "category": "熟語（英→日）",
+    "question": "account for",
+    "answer": "〜を説明する、〜（割合）を占める",
+    "explanation": "円グラフの説明などで「占める」の意味でよく出題されます。"
+  },
+  {
+    "id": 65,
+    "category": "熟語（英→日）",
+    "question": "bring up",
+    "answer": "育てる、(話題を)持ち出す",
+    "explanation": "raise（育てる）と同義。話題を「持ち上げる」イメージから、提案するという意味にもなります。"
+  },
+  {
+    "id": 66,
+    "category": "熟語（英→日）",
+    "question": "look into",
+    "answer": "調査する",
+    "explanation": "中を覗き込むイメージ。investigate と同義です。"
+  },
+  {
+    "id": 67,
+    "category": "熟語（日→英）",
+    "question": "〜に追いつく（3語で）",
+    "answer": "catch up with",
+    "explanation": "遅れている状態から追いつくこと。keep up with（ついていく）との区別に注意。"
+  },
+  {
+    "id": 68,
+    "category": "熟語（日→英）",
+    "question": "〜を誇りに思う（3語で）",
+    "answer": "be proud of",
+    "explanation": "take pride in 〜 と言い換えることもできます。"
+  },
+  {
+    "id": 69,
+    "category": "熟語（日→英）",
+    "question": "〜に頼る、当てにする（2語で）",
+    "answer": "rely on / count on",
+    "explanation": "depend on も同じ意味で使われます。"
+  },
+  {
+    "id": 70,
+    "category": "熟語（日→英）",
+    "question": "〜に関係なく（2語で）",
+    "answer": "regardless of",
+    "explanation": "irrespective of とも言います。regard（点、配慮）が less（ない）状態。"
+  },
+  {
+    "id": 71,
+    "category": "熟語（日→英）",
+    "question": "使い果たす（3語で）",
+    "answer": "run out of",
+    "explanation": "We ran out of gas.（ガソリン切れだ）のように使います。"
+  },
+  {
+    "id": 72,
+    "category": "同義語",
+    "question": "「purchase」の同義語は？",
+    "answer": "buy",
+    "explanation": "purchase は buy の少し堅い表現です。"
+  },
+  {
+    "id": 73,
+    "category": "同義語",
+    "question": "「mandatory」の同義語を選べ： [ optional / compulsory / voluntary ]",
+    "answer": "compulsory",
+    "explanation": "mandatory は「義務的な、強制的な」という意味。optional（任意の）の対義語です。"
+  },
+  {
+    "id": 74,
+    "category": "同義語",
+    "question": "「vanish」の同義語は？",
+    "answer": "disappear",
+    "explanation": "「消える」という意味。マジックなどでよく使われます。"
+  },
+  {
+    "id": 75,
+    "category": "対義語",
+    "question": "「guilty」の対義語は？",
+    "answer": "innocent",
+    "explanation": "guilty（有罪の）に対し、innocent は「無罪の、無邪気な」。"
+  },
+  {
+    "id": 76,
+    "category": "対義語",
+    "question": "「prohibit」の対義語は？",
+    "answer": "permit / allow",
+    "explanation": "prohibit（禁止する）に対し、permit/allow は「許可する」。"
+  },
+  {
+    "id": 77,
+    "category": "対義語",
+    "question": "「abstract」の対義語は？",
+    "answer": "concrete",
+    "explanation": "abstract（抽象的な）に対し、concrete は「具体的な」。「コンクリート」も固くて具体的な物質です。"
+  },
+  {
+    "id": 78,
+    "category": "対義語",
+    "question": "「demand」の対義語は？",
+    "answer": "supply",
+    "explanation": "Supply and Demand（需要と供給）。経済の基本用語です。"
+  },
+  {
+    "id": 79,
+    "category": "同義語",
+    "question": "「diligent」の同義語を選べ： [ lazy / hardworking / rude ]",
+    "answer": "hardworking",
+    "explanation": "diligent は「勤勉な」という意味です。"
+  },
+  {
+    "id": 80,
+    "category": "不規則変化",
+    "question": "shake の過去形・過去分詞形は？",
+    "answer": "shook - shaken",
+    "explanation": "take - took - taken と同じ変化パターンです。"
+  },
+  {
+    "id": 81,
+    "category": "不規則変化",
+    "question": "hide の過去形・過去分詞形は？",
+    "answer": "hid - hidden",
+    "explanation": "隠す、隠れる。過去形 hid の発音は「ヒッド」。"
+  },
+  {
+    "id": 82,
+    "category": "不規則変化",
+    "question": "tear の過去形・過去分詞形は？",
+    "answer": "tore - torn",
+    "explanation": "「引き裂く」の意味。wear - wore - worn と韻を踏みます。涙(tear)とは発音が違うので注意（テア）。"
+  },
+  {
+    "id": 83,
+    "category": "不規則変化",
+    "question": "freeze の過去形・過去分詞形は？",
+    "answer": "froze - frozen",
+    "explanation": "アナと雪の女王の原題『Frozen』は過去分詞形（凍らされた→凍った）です。"
+  },
+  {
+    "id": 84,
+    "category": "不規則変化",
+    "question": "sting の過去形・過去分詞形は？",
+    "answer": "stung - stung",
+    "explanation": "（虫などが）刺す。stick - stuck - stuck と似ています。"
+  },
+  {
+    "id": 85,
+    "category": "不規則変化",
+    "question": "forbid の過去形・過去分詞形は？",
+    "answer": "forbade - forbidden",
+    "explanation": "「禁じる」。過去形の forbade（またはforbad）は少し難しいですが、過去分詞 forbidden はよく見かけます。"
+  },
+  {
+    "id": 86,
+    "category": "前置詞",
+    "question": "この歌は昔を思い出させる。 This song reminds me ( ) the old days.",
+    "answer": "of",
+    "explanation": "remind A of B で「AにBを思い出させる」。"
+  },
+  {
+    "id": 87,
+    "category": "前置詞",
+    "question": "私たちは彼にその計画を知らせた。 We informed him ( ) the plan.",
+    "answer": "of",
+    "explanation": "inform A of B で「AにBを知らせる」。remind と同じ形をとります。"
+  },
+  {
+    "id": 88,
+    "category": "前置詞",
+    "question": "その事故を天気のせいにしてはいけない。 Don't blame the weather ( ) the accident.",
+    "answer": "for",
+    "explanation": "blame A for B で「B（原因）のことでA（人・モノ）を責める」。"
+  },
+  {
+    "id": 89,
+    "category": "前置詞",
+    "question": "大雨のせいで外出できなかった。 The heavy rain prevented me ( ) going out.",
+    "answer": "from",
+    "explanation": "prevent A from -ing で「Aが〜するのを妨げる」。stop や keep も同じ形で使えます。"
+  },
+  {
+    "id": 90,
+    "category": "前置詞",
+    "question": "日本チームは11人の選手で構成されている。 The Japanese team consists ( ) eleven players.",
+    "answer": "of",
+    "explanation": "consist of 〜 で「〜から成る」。受け身にしないのがポイントです。"
+  },
+  {
+    "id": 91,
+    "category": "前置詞",
+    "question": "私はコーヒーより紅茶が好きだ。 I prefer tea ( ) coffee.",
+    "answer": "to",
+    "explanation": "prefer A to B。比較ですが than ではなく to を使います（ラテン比較級）。"
+  },
+  {
+    "id": 92,
+    "category": "前置詞",
+    "question": "彼はその本に夢中だ。 He is absorbed ( ) the book.",
+    "answer": "in",
+    "explanation": "be absorbed in で「〜に熱中している、没頭している」。吸い込まれているイメージ。"
+  },
+  {
+    "id": 93,
+    "category": "前置詞",
+    "question": "新聞によると、明日は雨だ。 ( ) to the newspaper, it will rain tomorrow.",
+    "answer": "According",
+    "explanation": "According to 〜（〜によれば）。文頭でもよく使われます。"
+  },
+  {
+    "id": 94,
+    "category": "その他（語法）",
+    "question": "正しい方を選べ： He gave me a lot of ( ). [ advice / advices ]",
+    "answer": "advice",
+    "explanation": "advice は不可算名詞（数えられない）なので、複数形の s はつきません。information も同様。"
+  },
+  {
+    "id": 95,
+    "category": "その他（語法）",
+    "question": "（　）内の動詞を適切な形に： I suggested that he ( go ) to the hospital.",
+    "answer": "go",
+    "explanation": "提案・要求を表す動詞（suggest, insistなど）の後ろの that節内では、動詞は「原形」（または should + 原形）になります。仮定法現在と呼ばれます。"
+  },
+  {
+    "id": 96,
+    "category": "その他（語法）",
+    "question": "正しい意味を選べ： I used to play tennis. [ 今もしている / 昔はしていた ]",
+    "answer": "昔はしていた",
+    "explanation": "used to do は「（今はしていないが）かつて〜した」という過去の習慣。be used to -ing（〜に慣れている）と混同注意。"
+  },
+  {
+    "id": 97,
+    "category": "その他（語法）",
+    "question": "適切な関係代名詞を入れよ： He is the writer ( ) books are bestseller.",
+    "answer": "whose",
+    "explanation": "「その作家の」本、という所有の関係なので whose を使います。"
+  },
+  {
+    "id": 98,
+    "category": "その他（語法）",
+    "question": "彼は目を閉じたまま座っていた。 He sat with his eyes ( ). [ close / closing / closed ]",
+    "answer": "closed",
+    "explanation": "with + O + C（付帯状況）。目は「（まぶたによって）閉じられている」ので過去分詞 closed を使います。"
+  },
+  {
+    "id": 99,
+    "category": "その他（文法）",
+    "question": "付加疑問文を完成させよ： You are hungry, ( ) you?",
+    "answer": "aren't",
+    "explanation": "前の文が肯定文(are)なので、後ろは否定(aren't)になります。"
+  },
+  {
+    "id": 100,
+    "category": "トリビア",
+    "question": "英語で「frenemy（フレネミー）」とはどういう意味？",
+    "answer": "友人のふりをした敵、ライバル関係にある友人",
+    "explanation": "friend（友）と enemy（敵）を合わせた造語です。"
+  },
+  {
+    "id": 101,
+    "category": "英単語→日本語",
+    "question": "abroad",
+    "answer": "外国へ、海外で",
+    "explanation": "go abroad（海外に行く）、study abroad（留学する）の形でよく使われます。"
+  },
+  {
+    "id": 102,
+    "category": "英単語→日本語",
+    "question": "environment",
+    "answer": "環境",
+    "explanation": "environmental problem（環境問題）は中3英語の定番テーマです。"
+  },
+  {
+    "id": 103,
+    "category": "英単語→日本語",
+    "question": "garbage",
+    "answer": "ゴミ（生ゴミなど）",
+    "explanation": "trash や rubbish もゴミという意味ですが、garbage は特に台所のゴミなどを指すことが多いです。"
+  },
+  {
+    "id": 104,
+    "category": "英単語→日本語",
+    "question": "traditional",
+    "answer": "伝統的な",
+    "explanation": "Kyoto is a traditional city. のように使います。名詞は tradition。"
+  },
+  {
+    "id": 105,
+    "category": "英単語→日本語",
+    "question": "pollution",
+    "answer": "汚染",
+    "explanation": "air pollution（大気汚染）など。動詞は pollute（汚染する）。"
+  },
+  {
+    "id": 106,
+    "category": "英単語→日本語",
+    "question": "convenient",
+    "answer": "便利な、都合の良い",
+    "explanation": "コンビニ（convenience store）の語源です。"
+  },
+  {
+    "id": 107,
+    "category": "英単語→日本語",
+    "question": "invite",
+    "answer": "招待する",
+    "explanation": "invite A to B（AをBに招待する）。名詞形は invitation。"
+  },
+  {
+    "id": 108,
+    "category": "英単語→日本語",
+    "question": "graduate",
+    "answer": "卒業する",
+    "explanation": "graduate from 〜（〜を卒業する）という熟語で覚えましょう。"
+  },
+  {
+    "id": 109,
+    "category": "日本語→英単語",
+    "question": "政府",
+    "answer": "government",
+    "explanation": "govern（統治する）+ ment（名詞化）。スペルの n を忘れがちなので注意。"
+  },
+  {
+    "id": 110,
+    "category": "日本語→英単語",
+    "question": "経験",
+    "answer": "experience",
+    "explanation": "「経験する」という動詞としても使えます。現在完了形と一緒に使われることが多い語です。"
+  },
+  {
+    "id": 111,
+    "category": "日本語→英単語",
+    "question": "借りる（無料で）",
+    "answer": "borrow",
+    "explanation": "対義語は lend（貸す）。お金を払って借りる（家や車など）場合は rent を使います。"
+  },
+  {
+    "id": 112,
+    "category": "日本語→英単語",
+    "question": "となりの人、近所の人",
+    "answer": "neighbor",
+    "explanation": "neighborhood（近所、地域）も重要単語です。"
+  },
+  {
+    "id": 113,
+    "category": "日本語→英単語",
+    "question": "収穫、作物",
+    "answer": "crop",
+    "explanation": "harvest（収穫する）と関連して覚えたい単語です。"
+  },
+  {
+    "id": 114,
+    "category": "日本語→英単語",
+    "question": "決定する、決める",
+    "answer": "decide",
+    "explanation": "decide to 〜（〜することを決める）の形が頻出です。"
+  },
+  {
+    "id": 115,
+    "category": "日本語→英単語",
+    "question": "実現する（2語で）",
+    "answer": "come true",
+    "explanation": "My dream came true.（夢が叶った）のように使います。"
+  },
+  {
+    "id": 116,
+    "category": "5文型判定",
+    "question": "次の文の文型を答えなさい： I call him Ken.",
+    "answer": "第5文型 (SVOC)",
+    "explanation": "「彼 ＝ ケン」と呼ぶので、O=Cの関係です。"
+  },
+  {
+    "id": 117,
+    "category": "5文型判定",
+    "question": "次の文の文型を答えなさい： He looks happy.",
+    "answer": "第2文型 (SVC)",
+    "explanation": "look + 形容詞で「〜に見える」。「彼 ＝ 幸せそう」という状態です。"
+  },
+  {
+    "id": 118,
+    "category": "5文型判定",
+    "question": "次の文の文型を答えなさい： My mother made me a cake.",
+    "answer": "第4文型 (SVOO)",
+    "explanation": "「私」≠「ケーキ」なのでSVOOです。「私にケーキを作ってくれた」という意味。"
+  },
+  {
+    "id": 119,
+    "category": "熟語（英→日）",
+    "question": "give up",
+    "answer": "あきらめる、やめる",
+    "explanation": "Don't give up!（あきらめるな）は定番です。"
+  },
+  {
+    "id": 120,
+    "category": "熟語（英→日）",
+    "question": "look for",
+    "answer": "〜を探す",
+    "explanation": "find（見つける）との違いに注意。look for は探している動作を指します。"
+  },
+  {
+    "id": 121,
+    "category": "熟語（英→日）",
+    "question": "look after",
+    "answer": "世話をする",
+    "explanation": "take care of と同じ意味です。後ろをついて見てあげるイメージ。"
+  },
+  {
+    "id": 122,
+    "category": "熟語（英→日）",
+    "question": "take part in",
+    "answer": "〜に参加する",
+    "explanation": "join と似た意味ですが、take part in は行事や活動に参加する場合によく使われます。"
+  },
+  {
+    "id": 123,
+    "category": "熟語（日→英）",
+    "question": "〜を楽しみに待つ（3語で）",
+    "answer": "look forward to",
+    "explanation": "to の後ろは名詞か動名詞(-ing)が来ます。"
+  },
+  {
+    "id": 124,
+    "category": "熟語（日→英）",
+    "question": "〜で有名だ（3語で）",
+    "answer": "be famous for",
+    "explanation": "Kyoto is famous for its temples. のように使います。"
+  },
+  {
+    "id": 125,
+    "category": "熟語（日→英）",
+    "question": "散歩する（3語で）",
+    "answer": "take a walk",
+    "explanation": "go for a walk と言うこともあります。"
+  },
+  {
+    "id": 126,
+    "category": "熟語（日→英）",
+    "question": "（電気などを）つける（2語で）",
+    "answer": "turn on",
+    "explanation": "対義語は turn off（消す）。スイッチを回すイメージから来ています。"
+  },
+  {
+    "id": 127,
+    "category": "対義語",
+    "question": "「expensive」の対義語は？",
+    "answer": "cheap",
+    "explanation": "高い（expensive）⇔ 安い（cheap）。low（価格が低い）も使われますが、形容詞単体では cheap が一般的。"
+  },
+  {
+    "id": 128,
+    "category": "対義語",
+    "question": "「dangerous」の対義語は？",
+    "answer": "safe",
+    "explanation": "危険な（dangerous）⇔ 安全な（safe）。"
+  },
+  {
+    "id": 129,
+    "category": "不規則変化",
+    "question": "catch の過去形・過去分詞形は？",
+    "answer": "caught - caught",
+    "explanation": "gh は発音しません。「コート」に近い発音です。"
+  },
+  {
+    "id": 130,
+    "category": "不規則変化",
+    "question": "teach の過去形・過去分詞形は？",
+    "answer": "taught - taught",
+    "explanation": "catch と似た変化をします。"
+  },
+  {
+    "id": 131,
+    "category": "不規則変化",
+    "question": "write の過去形・過去分詞形は？",
+    "answer": "wrote - written",
+    "explanation": "過去分詞は t を2回重ねて written（リトゥン）になります。"
+  },
+  {
+    "id": 132,
+    "category": "不規則変化",
+    "question": "eat の過去形・過去分詞形は？",
+    "answer": "ate - eaten",
+    "explanation": "過去形 ate の発音は「エイト（eight）」と同じです。"
+  },
+  {
+    "id": 133,
+    "category": "不規則変化",
+    "question": "see の過去形・過去分詞形は？",
+    "answer": "saw - seen",
+    "explanation": "saw（ソー）の発音に注意。"
+  },
+  {
+    "id": 134,
+    "category": "前置詞",
+    "question": "私は音楽に興味があります。 I am interested ( ) music.",
+    "answer": "in",
+    "explanation": "be interested in 〜 で「〜に興味がある」。中2の重要連語です。"
+  },
+  {
+    "id": 135,
+    "category": "前置詞",
+    "question": "バスを待つ。 wait ( ) the bus.",
+    "answer": "for",
+    "explanation": "wait for 〜 で「〜を待つ」。"
+  },
+  {
+    "id": 136,
+    "category": "前置詞",
+    "question": "私の話を聞いて。 Listen ( ) me.",
+    "answer": "to",
+    "explanation": "listen は自動詞なので、目的語をとるときは to が必要です。"
+  },
+  {
+    "id": 137,
+    "category": "前置詞",
+    "question": "その山は雪で覆われている。 The mountain is covered ( ) snow.",
+    "answer": "with",
+    "explanation": "受動態ですが by ではなく with を使う重要表現です。"
+  },
+  {
+    "id": 138,
+    "category": "前置詞",
+    "question": "その箱は本でいっぱいだ。 The box is filled ( ) books.",
+    "answer": "with",
+    "explanation": "be full of 〜 と同じ意味になりますが、filled の場合は with を使います。"
+  },
+  {
+    "id": 139,
+    "category": "前置詞",
+    "question": "彼は犬を怖がっている。 He is afraid ( ) dogs.",
+    "answer": "of",
+    "explanation": "be afraid of 〜（〜を恐れる、怖がる）。"
+  },
+  {
+    "id": 140,
+    "category": "前置詞",
+    "question": "お年寄りに親切にしなさい。 Be kind ( ) old people.",
+    "answer": "to",
+    "explanation": "kind to 〜 で「〜に対して親切な」。"
+  },
+  {
+    "id": 141,
+    "category": "その他（文法）",
+    "question": "（　）内の動詞を適切な形に： I enjoy ( play ) tennis.",
+    "answer": "playing",
+    "explanation": "enjoy, finish, stop などの後は、不定詞(to do)ではなく動名詞(-ing)を使います。"
+  },
+  {
+    "id": 142,
+    "category": "その他（文法）",
+    "question": "（　）内の動詞を適切な形に： I want ( go ) to America.",
+    "answer": "to go",
+    "explanation": "want, hope, wish などの「これから〜したい」という動詞は、不定詞(to do)を使います。"
+  },
+  {
+    "id": 143,
+    "category": "その他（文法）",
+    "question": "（　）内の語を並べ替えて正しい文に： [ something / drink / cold / to ].（冷たい飲み物）",
+    "answer": "something cold to drink",
+    "explanation": "「〜なもの」は形容詞を後ろに置きます(something cold)。さらに不定詞が後ろから修飾します。"
+  },
+  {
+    "id": 144,
+    "category": "その他（文法）",
+    "question": "空欄に適切な関係代名詞を入れよ： I have a friend ( ) lives in Canada.",
+    "answer": "who",
+    "explanation": "先行詞が「人(friend)」で、後ろに動詞(lives)が続いているので、主格の who を使います。"
+  },
+  {
+    "id": 145,
+    "category": "その他（文法）",
+    "question": "空欄に適切な関係代名詞を入れよ： This is the book ( ) I bought yesterday.",
+    "answer": "which / that",
+    "explanation": "先行詞が「物(book)」なので、which または that を使います。"
+  },
+  {
+    "id": 146,
+    "category": "その他（文法）",
+    "question": "比較級にしなさい： This question is ( easy ) than that one.",
+    "answer": "easier",
+    "explanation": "y を i に変えて er をつけます。"
+  },
+  {
+    "id": 147,
+    "category": "その他（文法）",
+    "question": "最上級にしなさい： He is the ( good ) soccer player in our school.",
+    "answer": "best",
+    "explanation": "good - better - best の不規則変化です。"
+  },
+  {
+    "id": 148,
+    "category": "その他（文法）",
+    "question": "現在完了形を用いて「私はそこへ2回行ったことがある」： I ( ) ( ) there twice.",
+    "answer": "have been",
+    "explanation": "「行ったことがある」という経験は have been to を使います。have gone to だと「行ってしまった（もうここにはいない）」になります。"
+  },
+  {
+    "id": 149,
+    "category": "その他（文法）",
+    "question": "受け身の文にしなさい： This letter ( write ) by him yesterday.",
+    "answer": "was written",
+    "explanation": "yesterday（過去）のことなので、be動詞は過去形(was)にします。"
+  },
+  {
+    "id": 150,
+    "category": "その他（文法）",
+    "question": "「〜しなければならない」（mから始まる語）： You ( ) study hard.",
+    "answer": "must",
+    "explanation": "have to とほぼ同じ意味です。否定の must not は「してはいけない（禁止）」になります。"
+  }
+]
+

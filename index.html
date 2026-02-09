@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online English Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Noto+Sans+JP:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-animation"></div>
+
+    <div id="app">
+        <!-- Waiting Screen -->
+        <div id="waiting-screen" class="screen">
+            <div class="glass-card">
+                <h1>Online English Quiz</h1>
+                <p class="subtitle">Waiting for players...</p>
+
+                <div class="player-list">
+                    <div class="player-item">
+                        <span class="avatar">🐱</span>
+                        <span class="name">Player 1 (Host)</span>
+                    </div>
+                </div>
+
+                <div class="room-info">
+                    <p>Share this URL to invite friends:</p>
+                    <div class="url-box">
+                        <span id="room-url">...</span>
+                        <button class="copy-btn">Copy</button>
+                    </div>
+                </div>
+
+                <button id="start-btn" class="primary-btn">Start Game</button>
+            </div>
+        </div>
+
+        <!-- Game Screen (Initially Hidden) -->
+        <div id="game-screen" class="screen hidden">
+            <!-- Status Area -->
+            <div class="status-bar glass-panel">
+                <div class="player-status active">
+                    <div class="player-info">
+                        <span class="avatar">🐱</span>
+                        <span class="name">Player 1</span>
+                    </div>
+                    <span class="score">10 pts</span>
+                </div>
+                <div class="player-status">
+                    <div class="player-info">
+                        <span class="avatar">🐶</span>
+                        <span class="name">Player 2</span>
+                    </div>
+                    <span class="score">5 pts</span>
+                </div>
+                <div class="player-status">
+                    <div class="player-info">
+                        <span class="avatar">🦊</span>
+                        <span class="name">Player 3</span>
+                    </div>
+                    <span class="score">-2 pts</span>
+                </div>
+            </div>
+
+            <!-- Quiz Area -->
+            <div class="quiz-area glass-card">
+                <div id="timer" class="timer hidden">20</div>
+                <div class="question-number"></div>
+                <div class="question-text"></div>
+                <div class="answer-text hidden"></div>
+            </div>
+
+            <!-- Interaction Area -->
+            <div class="interaction-area">
+                <button id="buzzer-btn" class="buzzer">
+                    <span>PUSH</span>
+                </button>
+                <div id="buzzer-message" class="hidden">Player 1 Buzzed!</div>
+            </div>
+
+            <!-- Control Panel (Host Only) -->
+            <div class="control-panel glass-panel">
+                <button class="control-btn start">Start Q</button>
+                <button class="control-btn answer">Show Ans</button>
+                <button class="control-btn correct">Bingo! (+1)</button>
+                <button class="control-btn wrong">Wrong! (-1)</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Supabase CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+    <!-- Temporary Script to switch screens for demo - REMOVED for real logic -->
+</body>
+
+</html>
