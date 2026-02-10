@@ -11,7 +11,7 @@ let state = {
     players: {}, // Map of presence state
     questions: [],
     shuffledQuestions: [], // Shuffled copy of questions
-    usedQuestionIndices: [], // Track last 100 used questions
+    usedQuestionIds: [], // Track used question IDs (persisted in localStorage)
     currentQuestionIndex: -1,
     currentQuestion: null, // Track current question object {text, answer}
     scores: {}, // Map of playerId -> score
@@ -227,7 +227,7 @@ async function init() {
         } else {
             state.role = 'player';
             // Assign a new player number if not already assigned
-            state.playerNumber = parseInt(savedPlayerNumber) || (Math.floor(Math.random() * 100) + 2);
+            state.playerNumber = parseInt(savedPlayerNumber) || (Math.floor(Math.random() * 2) + 2);
             state.playerName = `Player ${state.playerNumber}`;
             sessionStorage.setItem(`player_number_${state.roomId}`, state.playerNumber.toString());
         }
@@ -388,44 +388,30 @@ function hostStartGame() {
 }
 
 function hostNextQuestion() {
-    // Load used question history from localStorage
-    const storedHistory = localStorage.getItem('usedQuestionIndices');
+    // Load used question history from localStorage (by question ID for persistence across updates)
+    const storedHistory = localStorage.getItem('usedQuestionIds');
     if (storedHistory) {
-        state.usedQuestionIndices = JSON.parse(storedHistory);
+        state.usedQuestionIds = JSON.parse(storedHistory);
     }
 
-    // Find a question that hasn't been used in the last 100 questions
-    let availableIndices = [];
-    for (let i = 0; i < state.questions.length; i++) {
-        if (!state.usedQuestionIndices.includes(i)) {
-            availableIndices.push(i);
-        }
-    }
+    // Find questions whose ID is not in the used list
+    let availableQuestions = state.questions.filter(q => !state.usedQuestionIds.includes(q.id));
 
-    // If all questions in the last 100, allow repeats from oldest
-    if (availableIndices.length === 0) {
-        // Remove the oldest from used list to make room
-        state.usedQuestionIndices.shift();
-        // Recalculate available
-        for (let i = 0; i < state.questions.length; i++) {
-            if (!state.usedQuestionIndices.includes(i)) {
-                availableIndices.push(i);
-            }
-        }
+    // If all questions have been used, remove oldest entries until one becomes available
+    while (availableQuestions.length === 0 && state.usedQuestionIds.length > 0) {
+        state.usedQuestionIds.shift();
+        availableQuestions = state.questions.filter(q => !state.usedQuestionIds.includes(q.id));
     }
 
     // Pick a random question from available
-    const randomIndex = availableIndices[Math.floor(Math.random() * availableIndices.length)];
-    const question = state.questions[randomIndex];
+    const question = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
+    const randomIndex = state.questions.indexOf(question);
 
-    // Add to used questions (keep only last 100)
-    state.usedQuestionIndices.push(randomIndex);
-    if (state.usedQuestionIndices.length > 100) {
-        state.usedQuestionIndices.shift();
-    }
+    // Add to used questions list
+    state.usedQuestionIds.push(question.id);
 
     // Persist to localStorage
-    localStorage.setItem('usedQuestionIndices', JSON.stringify(state.usedQuestionIndices));
+    localStorage.setItem('usedQuestionIds', JSON.stringify(state.usedQuestionIds));
 
     state.currentQuestionIndex++;
 
@@ -595,6 +581,13 @@ function handleGameEvent(payload) {
         case 'buzz_winner':
             // All clients handle who won the buzz
             playBuzzerSound(); // Play buzzer sound for everyone
+            // Stop timer on all clients
+            if (state.timerId) {
+                clearInterval(state.timerId);
+                state.timerId = null;
+            }
+            ui.timer.classList.add('hidden');
+            ui.timer.classList.remove('warning');
             state.buzzedPlayerId = payload.playerId;
             state.isBuzzed = true;
             ui.buzzerBtn.disabled = true; // Lock everyone
