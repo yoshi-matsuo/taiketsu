@@ -72,49 +72,48 @@ function playBuzzerSound() {
     oscillator.stop(ctx.currentTime + 0.2);
 }
 
-// Correct answer sound - happy ascending tones
+// Correct answer sound - quiz show ピンポンピンポン style
 function playCorrectSound() {
     const ctx = getAudioContext();
-    const frequencies = [523, 659, 784]; // C5, E5, G5
+    const notes = [
+        { freq: 880, time: 0 },     // A5
+        { freq: 1109, time: 0.12 }, // C#6
+        { freq: 880, time: 0.24 },  // A5
+        { freq: 1109, time: 0.36 }, // C#6
+    ];
 
-    frequencies.forEach((freq, i) => {
-        const oscillator = ctx.createOscillator();
-        const gainNode = ctx.createGain();
-
-        oscillator.connect(gainNode);
-        gainNode.connect(ctx.destination);
-
-        oscillator.type = 'sine';
-        oscillator.frequency.setValueAtTime(freq, ctx.currentTime);
-
-        const startTime = ctx.currentTime + i * 0.1;
-        gainNode.gain.setValueAtTime(0, startTime);
-        gainNode.gain.linearRampToValueAtTime(0.3, startTime + 0.05);
-        gainNode.gain.exponentialRampToValueAtTime(0.01, startTime + 0.2);
-
-        oscillator.start(startTime);
-        oscillator.stop(startTime + 0.2);
+    notes.forEach(({ freq, time }) => {
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(freq, ctx.currentTime + time);
+        gain.gain.setValueAtTime(0, ctx.currentTime + time);
+        gain.gain.linearRampToValueAtTime(0.5, ctx.currentTime + time + 0.02);
+        gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + time + 0.1);
+        osc.start(ctx.currentTime + time);
+        osc.stop(ctx.currentTime + time + 0.1);
     });
 }
 
-// Wrong answer sound - descending buzz
+// Wrong answer sound - quiz show ブッブー style
 function playWrongSound() {
     const ctx = getAudioContext();
-    const oscillator = ctx.createOscillator();
-    const gainNode = ctx.createGain();
-
-    oscillator.connect(gainNode);
-    gainNode.connect(ctx.destination);
-
-    oscillator.type = 'sawtooth';
-    oscillator.frequency.setValueAtTime(300, ctx.currentTime);
-    oscillator.frequency.exponentialRampToValueAtTime(100, ctx.currentTime + 0.3);
-
-    gainNode.gain.setValueAtTime(0.2, ctx.currentTime);
-    gainNode.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.3);
-
-    oscillator.start(ctx.currentTime);
-    oscillator.stop(ctx.currentTime + 0.3);
+    // Two low tones played together for a buzzer effect
+    [150, 180].forEach(freq => {
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.type = 'square';
+        osc.frequency.setValueAtTime(freq, ctx.currentTime);
+        gain.gain.setValueAtTime(0.4, ctx.currentTime);
+        gain.gain.setValueAtTime(0.4, ctx.currentTime + 0.5);
+        gain.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.7);
+        osc.start(ctx.currentTime);
+        osc.stop(ctx.currentTime + 0.7);
+    });
 }
 
 // Start question sound - dramatic quiz show "ダダッ！" style
@@ -606,6 +605,12 @@ function handleGameEvent(payload) {
             break;
 
         case 'judge_result':
+            // Play sound on all clients
+            if (payload.correct) {
+                playCorrectSound();
+            } else {
+                playWrongSound();
+            }
             if (payload.playerId === state.playerId) {
                 // Update my score if I was the one judged
                 const myCurrentScore = (state.players[state.playerId] && state.players[state.playerId].score) || 0;
@@ -696,11 +701,9 @@ function setupUIControls() {
     });
     ui.btnShowAns.addEventListener('click', hostShowAnswer);
     ui.btnCorrect.addEventListener('click', () => {
-        playCorrectSound();
         hostJudge(true);
     });
     ui.btnWrong.addEventListener('click', () => {
-        playWrongSound();
         hostJudge(false);
     });
 
